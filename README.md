@@ -7,18 +7,18 @@ An 8-page Power BI dashboard analyzing the economic, market, and policy impact o
 
 ## Overview
 
-This project traces the trade war from its first tariffs in March 2018 through the renewed escalation of 2024–2025, connecting tariff policy directly to its measurable downstream effects: equity market drawdowns, currency depreciation, sector-level winners and losers, inflation spikes, and shifting trade balances. Built entirely from raw data using a star schema data model, custom DAX measures, and Power Query transformations — no black-box AI summarization, every number is traceable back to source data.
+This project traces the trade war from its first tariffs in March 2018 through the renewed escalation of 2024–2025, connecting tariff policy directly to its measurable downstream effects: equity market drawdowns, currency depreciation, sector-level winners and losers, inflation spikes, and shifting trade balances. Built entirely from raw data using a star schema data model, custom DAX measures, and Power Query transformations, no black-box AI summarization, every number is traceable back to source data.
 
 ## Dashboard Pages
 
-1. **Executive Summary** — headline KPIs and key findings across the whole project
-2. **Tariff Timeline & Escalation** — chronological bubble chart of all 70 tariff events, filterable by country, type, sector, and era
-3. **Markets & Equities Impact** — S&P 500, Nasdaq, and Shanghai Composite performance, volatility, drawdown, and return distribution
-4. **Sector Analysis** — year-by-year sector returns, sector ranking over time, and risk-vs-return positioning
-5. **Trade & Macroeconomic Impact** — trade balance, exports/imports, CPI inflation, and trade volume growth
-6. **Currency Impact** — USD/CNY exchange rate, volatility, and rolling correlation with US equities
-7. **News & Policy Intelligence** — sentiment analysis of trade war news headlines
-8. **Methodology & Data Overview** — data model, DAX measure reference, and data quality notes
+1. **Executive Summary** : headline KPIs and key findings across the whole project
+2. **Tariff Timeline & Escalation** : chronological bubble chart of all 70 tariff events, filterable by country, type, sector, and era
+3. **Markets & Equities Impact** : S&P 500, Nasdaq, and Shanghai Composite performance, volatility, drawdown, and return distribution
+4. **Sector Analysis** : year-by-year sector returns, sector ranking over time, and risk-vs-return positioning
+5. **Trade & Macroeconomic Impact** : trade balance, exports/imports, CPI inflation, and trade volume growth
+6. **Currency Impact** : USD/CNY exchange rate, volatility, and rolling correlation with US equities
+7. **News & Policy Intelligence** : sentiment analysis of trade war news headlines
+8. **Methodology & Data Overview** : data model, DAX measure reference, and data quality notes
 
 ## Key Findings
 
@@ -31,6 +31,9 @@ This project traces the trade war from its first tariffs in March 2018 through t
 ## Data Sources
 
 Built from two Kaggle datasets (11 tables total): tariff timeline and rates, stock market reaction, sector-level equity performance, currency exchange rates, trade volume and balance, CPI inflation, and tariff-related news headlines.
+
+- [Global Trade War 2018-Present: Tariff and Markets](https://www.kaggle.com/datasets/belbino/global-trade-war-2018-present-tariff-and-markets/data)
+- [US Tariff and Trade War Impact Dataset 2018-Present](https://www.kaggle.com/datasets/belbino/us-tariff-and-trade-war-impact-dataset-2018-present?resource=download)
 
 ## Tools & Techniques
 
