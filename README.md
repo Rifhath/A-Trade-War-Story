@@ -57,8 +57,6 @@ In the interest of transparency:
 ## Author
 
 **Rifhath Aslam Jageer Hussain**
-Data & System Administrator (Analytics & Reporting), DHL Supply Chain UK
-MSc Data Analytics, University of Warwick
 
 ## Data Attribution
 
