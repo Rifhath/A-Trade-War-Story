@@ -37,10 +37,10 @@ Built from two Kaggle datasets (11 tables total): tariff timeline and rates, sto
 
 ## Tools & Techniques
 
-- **Power BI Desktop** — report design, data modeling, DAX
-- **DAX** — custom measures including rolling 30-day Pearson correlation (computed natively in DAX, no external statistical tool), running peak/drawdown calculations, dynamic RANKX-based sector rankings, and sort-by-column implementations for correctly ordered categorical bins
-- **Power Query** — data cleaning, country code standardization, era tagging, chronological index workarounds for scatter chart axes
-- **Data modeling** — star schema with fact and dimension tables
+- **Power BI Desktop** : report design, data modeling, DAX
+- **DAX** : custom measures including rolling 30-day Pearson correlation (computed natively in DAX, no external statistical tool), running peak/drawdown calculations, dynamic RANKX-based sector rankings, and sort-by-column implementations for correctly ordered categorical bins
+- **Power Query** : data cleaning, country code standardization, era tagging, chronological index workarounds for scatter chart axes
+- **Data modeling** : star schema with fact and dimension tables
 
 ## Notable Technical Challenges
 
